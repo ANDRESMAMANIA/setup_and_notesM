@@ -1,14 +1,60 @@
-# Archivos de configuración con credenciales o contraseñas
+# ==========================================
+# CONFIGURACIÓN LOCAL Y SECRETOS
+# ==========================================
 .env
-.env.local
-config.json
+.env.*
+*.env
+config.local.*
 
-# Carpetas de dependencias (no deben subirse, se regeneran localmente)
+# ==========================================
+# ENTORNOS DE NOTAS Y HERRAMIENTAS
+# ==========================================
 .obsidian/
 
-# Archivos pesados o binarios resultantes de compilaciones
-*.log
-*.exe
-bin/
-out/
+# ==========================================
+# ENTORNOS DE DESARROLLO (IDEs y EDITORES)
+# ==========================================
+# VSCode
+.vscode/
 
+# JetBrains (IntelliJ, PyCharm, WebStorm, etc.)
+.idea/
+
+# Vim & Emacs
+*.swp
+*.swo
+*~
+\#*\#
+
+# ==========================================
+# ENTORNO DEL SISTEMA OPERATIVO (LINUX)
+# ==========================================
+.cache/
+*.tmp
+*.bak
+
+# ==========================================
+# LOGS Y ARCHIVOS DE BLOQUEO
+# ==========================================
+*.log
+logs/
+*.lock
+
+# ==========================================
+# DEPENDENCIAS Y ENTORNOS VIRTUALES
+# ==========================================
+node_modules/
+venv/
+
+# ==========================================
+# COMPILACIÓN, LENGUAJES Y CONSTRUCCIÓN
+# ==========================================
+# Python
+__pycache__/
+*.pyc
+
+# Directorios de salida comunes (JS/TS, C#, Java, Rust, etc.)
+dist/
+build/
+out/
+target/

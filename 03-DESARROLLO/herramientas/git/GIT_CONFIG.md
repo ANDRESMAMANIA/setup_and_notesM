@@ -1,7 +1,7 @@
 # **.GitConfig**
 
 >[!Informacion]
->Si gusta puede ver los comandos basicos de **GIT** [AQUI](10-CHEATSHEETS/git-cheatsheet.md)
+>Si gusta puede ver los comandos basicos de **GIT** [AQUI](../../../10-CHEATSHEETS/git-cheatsheet.md)
 
 ## Tipos de configuración
 

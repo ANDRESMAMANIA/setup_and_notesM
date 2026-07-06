@@ -32,5 +32,5 @@ echo $SHELL
 >[!IMPORTANTE]
 El cambio se aplicara al volver a iniciar sesión o reiniciar el equipo.
 
-Para instalar y agregar pluguins acceder [AQUI](02-TERMINAL/shells/zsh/plugins.md)
-Para acceder al archivo principal de **` zsh `** y sus configuraciones acceder [AQUI](02-TERMINAL/shells/zsh/zshrc.md)
+Para instalar y agregar pluguins acceder [AQUI](shells/zsh/plugins.md)
+Para acceder al archivo principal de **` zsh `** y sus configuraciones acceder [AQUI](shells/zsh/zshrc.md)

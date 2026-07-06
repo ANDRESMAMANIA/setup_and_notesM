@@ -11,8 +11,7 @@ Configura la información del usuario para todos los repositorios locales.
 | `git config --global color.ui auto`        | Colorea la salida de la terminal |
 | `git config --list`                        | Muestra la configuración actual  |
 >[!Leer]
-> Para mas información acceder y revisar el siguiente documentación:
-> [git.config](03-DESARROLLO/herramientas/git/GIT_CONFIG.md)
+> Para mas información acceder y revisar el siguiente documentación: [AQUI](../03-DESARROLLO/herramientas/git/GIT_CONFIG.md)
 
 ## Crear Repositorios
 Inicia un nuevo repositorio o clona uno existente.
