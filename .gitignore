@@ -1,0 +1,14 @@
+# Archivos de configuración con credenciales o contraseñas
+.env
+.env.local
+config.json
+
+# Carpetas de dependencias (no deben subirse, se regeneran localmente)
+.obsidian/
+
+# Archivos pesados o binarios resultantes de compilaciones
+*.log
+*.exe
+bin/
+out/
+

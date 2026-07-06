@@ -1,45 +1,31 @@
-# Apuntes_Documentación
+# SETUP AND NOTES
+
+## INTRODUCCIÓN
+Bienvenido a mi repositorio personal de conocimiento técnico y desarrollo profesional.
+Donde voy a documentar todo mi proceso de aprendizaje, apuntes de la universidad/carrera, cursos, configuraciones de mi sistema, herramientas y scripts útiles.
 
 ---
+ **¿DE QUÉ SE TRATA ESTE PROYECTO?**
+
+La idea es simple: **si lo aprendo, lo documento.** Aqui vas a encontrar:
+> **Apuntes de clases:** Todo lo relacionado con mi carrera (Ingeniería, Redes, Algoritmos)
+> **Mis Dotfiles & Configs:** Como tengo personalizado mi entorno(actualmente usando Arch Linux).
+> **Guías rápidas y Cheatsheets:** Chuletas que me salvan la vida en el  día a día (Git, Docker, comandos de Linux, etc..).
+> **Cursos y Proyectos:** El código y las notas de los cursos que voy haciendo.
 
 ---
-
-## Terminal
-
-### Configuración de la terminal [Aqui](Config_Terminal/Terminal.md)
-
-Básicamente aquí se **instala y configura** la terminal para su uso optimo y a la ves se mejora el entorno y la forma que se puede usar la terminal
-
-> - Se cambio el **Shell** de `bash` a `zsh` que es mucho mejor, mas optimizado y con figurable que **bash**
-> - Se explica como instalar uno de los mejores **Framework** para zsh que es **`Oh My Zsh`** que tiene varios themes y plugins que se puede instalar y configurar cambiando por completo el entorno y el trabajo con la terminal
-
-## Documentacion de programas
-
+**Nota antes de comenzar**
+> [!Nota importante:] 
+> Este repositorio esta principalmente orientado a **Linux**, específicamente **Arch Linux**, que es mi sistema principal. si utilizas otro sistema operativo(Windows, macOS u otras distros), es posible que necesites adaptar algunos comandos y configuraciones.
+>
+> Intetaré incluir alternativas para otros sistemas cuando sea posible, pero la mayoria del contenido asume que esta trabajado en un entorno **Linux**.
+ 
+ ---
+ **¿Como usar este repositorio?**
+ 1.  Explora las carpetas según lo que necesites aprender o configurar.
+ 2.  Si buscas algo en especifico de mi sistema, te recomiendo mirar primero el mapa general del proyecto [**AQUI**](00-INDEX/mapa-general.md)
+ 3.  En caso de no saber que es lo que buscas puedes ir a la guia rapida [**AQUI**](00-INDEX/guia-rapida.md) 
 ---
-
-### Programas de Interfaz de Línea de Comandos (CLI)
-
-Es el tipo de programa que se ejecuta directamente dentro de la terminal. Su nombre técnico es **CLI**, que significa **Command Line Interface** (Interfaz de Línea de Comando).
-
-#### Yazi [**Aqui**](Apuntes_Documentacion/Programs%201/CLI/Yazi.md):
-
-Yazi es un administrador de archivos moderno que se ejecuta directamente desde la terminal, diseñado para ser extremadamente rápido y eficiente.
-
-> - Para que cualquier persona lo entienda: es el equivalente al "Explorador de archivos" de Windows o al "Finder" de Mac, pero no utiliza ventanas ni animaciones pesadas. En su lugar, organiza tus carpetas en tres columnas visuales que te permiten navegar, previsualizar archivos (como imágenes, videos o código) y moverte por todo el sistema usando únicamente el teclado, sin tocar el mouse.
-
-#### Git [**Aquí**](Config_Git/git.md)
-
-> **[.gitconfig](Config_Git/gitconfig.md)**: Es el centro de control de Git en la maquina. Es un archivo de texto plano que almacena todas las preferencias, personalizaciones y comportamientos globales o locales que decides aplicar al usar la herramienta de control **GIT**  
-> [.gitignore](Config_Git/gitignore.md): es un archivo de texto plano que se coloca en la raíz de un repositorio de Git para indicarle al sistema qué archivos o carpetas debe ignorar por completo.
-
-#### rsync [**Aquí**](Programs/CLI/rsync.md)
-
-Es una herramienta de línea de comandos que permite **copiar, sincronizar y transferir archivos** tanto de forma **local** como **remota** de manera eficiente. Solo transfiere las **diferencias** entre archivos, lo que lo hace mucho más rápido que `cp`.
-
----
-
-### Programas de Interfaz Gráfica de Usuario (GUI)
-
-Es el tipo de programa que, al ejecutarse, abre una ventana independiente con la que puedes interactuar visualmente. Su nombre técnico es **GUI**, que significa **Graphical User Interface** (Interfaz Gráfica de Usuario).
+Este repositorio es principalmente para mi **uso personal**, pero si encuentras algo útil, ¡siéntete libre de explorarlo y usarlo! Solo ten en cuenta que está en constante evolución y algunos archivos pueden estar incompletos y en constante actualización.
 
 ---
